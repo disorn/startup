@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+	<head>
   <title>Log In</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
   <link href= "register.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" type="text/css" href="login.css">
-  </head>
+	</head>
 <body background="money.jpg"><div id="_AF_HSS_extension_installed" style="display: none !important;"></div>
     <div class="container">
       <div class="header clearfix">
@@ -23,12 +23,12 @@
         </nav>
         <h3 class="text-muted">Financial Project</h3>
       </div>
-    <script type="text/javascript" src="logincode.js"></script>
+		<script type="text/javascript" src="logincode.js"></script>
     <script>
         function authenticate( )
         {
-          var username = document.getElementById("username").value.trim();
-          var password = document.getElementById("password").value.trim();
+        	var username = document.getElementById("username").value.trim();
+        	var password = document.getElementById("password").value.trim();
             if( username == "admin" && password == "admin")
             {
                   window.location = "success.html"; //success
@@ -37,34 +37,35 @@
             {
 
                   window.location = "badLogin.html";
-                  //alert(username + " " + password);
+                  alert(username + " " + password);
             }
 
         }
     </script>
-  </head>
+	</head>
      <body>
      <h2>Welcome To FunLoans</h2>  
-        <div id="Login">
-    <div id="credit">
-      <div id="detail">
-      <p1>Log in</p1>
-      </div>
-      <form method="get" action="">
-          <label id="width" for="email">User Name</label>
-          <input type="text" id="username" required/><br />
-          <label id="width" for="pass">Password</label>
-          <input type="password" id="password" required/><br />
-            <a class="btn center btn-lg btn-success" type="submit" onclick="authenticate()">Login</a>
-      </form>
-    </div>
+    		<div id="Login">
+		<div id="credit">
+			<div id="detail">
+			<p1>Log in</p1>
+			</div>
+			<font color="red"> You entered an incorrect username or password</font>
+			<form method="get" action="">
+	  			<label id="width" for="email">User Name</label>
+	  			<input type="text" id="username" required/><br />
+	  			<label id="width" for="pass">Password</label>
+	  			<input type="password" id="password" required/><br />
+        		<a class="btn center btn-lg btn-success" type="submit" onclick="authenticate()">Login</a>
+			</form>
+		</div>
 
-    </div>
-    <a class="dont" href="register.html">Don't have an account? Click here!</a>
+		</div>
+		<a class="dont" href="register.html">Don't have an account? Click here!</a>
 
     
 
 
 
-  </body>
+	</body>
 </html>
