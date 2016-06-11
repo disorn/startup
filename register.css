@@ -1,0 +1,60 @@
+html {
+	font-family: 'Raleway';
+}
+h1 {
+	text-align: center;
+	margin: 15px 0;
+    font-weight: 900;
+}
+#register {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    display: block;
+    background-color: lightyellow;
+    width: 45%;
+    max-width: 400px;
+    padding: .5px 25px 20px 25px;
+}
+.button {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+#detail {
+	margin-bottom: 15px;
+}
+p1 {
+	font-style: oblique;
+    font-size: 21px;
+    font-family: 'Raleway';
+    font-weight: 900;
+}
+label, input {
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 900;
+}
+label {
+    width: 105px;
+}
+#credit {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: table;
+    font-size: 25px;
+    font-family: 'Raleway';
+}
+img {
+    width: 50px;
+}
