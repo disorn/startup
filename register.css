@@ -1,60 +1,33 @@
-html {
+h1,p,li, h3 {
 	font-family: 'Raleway';
 }
-h1 {
+h2 {
 	text-align: center;
-	margin: 15px 0;
-    font-weight: 900;
 }
-#register {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8%;
-    display: block;
-    background-color: lightyellow;
-    width: 45%;
-    max-width: 400px;
-    padding: .5px 25px 20px 25px;
+.text-muted {
+	color: #C71585;
+	font-family: 'Roboto';
+	font-weight: 900;
 }
-.button {
-	margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 15px;
-    font-size: 25px;
-    text-decoration: none;
-    text-align: center;
+.jumbotron {
+	clear: both;
 }
-#detail {
-	margin-bottom: 15px;
+#pic {
+	width: 30%;
 }
-p1 {
-	font-style: oblique;
-    font-size: 21px;
-    font-family: 'Raleway';
-    font-weight: 900;
+.btn1 {
+	float: left;
+	margin-left: 30%;
 }
-label, input {
-    font-size: 16px;
-    font-family: 'Raleway';
-    font-weight: 900;
+.btn2 {
+	float: right;
+	margin-right: 30%;
 }
-label {
-    width: 105px;
+.col-lg-6 {
+     clear: both;
+     width: 100%;
 }
-#credit {
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
-}
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    display: table;
-    font-size: 25px;
-    font-family: 'Raleway';
-}
-img {
-    width: 50px;
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
 }
