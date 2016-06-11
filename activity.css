@@ -395,4 +395,8 @@ body.navbar-more-show  {
     .navbar-nav.mobile-bar > li > a > span.menu-icon {
         display: none;
     }
+
+    #postComment {
+        display:none;
+    }
 }

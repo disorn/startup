@@ -13,3 +13,9 @@ $(document).ready(function() {
         return false;
     });
 });
+
+$(function () {
+    $("#addcomment").click(function () {
+        $("#postComment").show("slow");
+    });
+});
